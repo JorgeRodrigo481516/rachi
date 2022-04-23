@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+  max-width: breakpoint('huge');
+  height: 70px;
+  justify-content: space-around !important;
+  gap: 30px;
+
+  @include mq('medium') {
+    gap: 0;
+  }
+
+  a {
+    color: color('gray');
+  }
+
+  ul {
+    margin-left: 70px;
+    gap: 60px;
+    font-family: 'Inter', $text-font-stack;
+    font-size: min(3.6vw, 1.8rem);
+    font-weight: 500;
+    list-style: none;
+
+    @include mq('medium') {
+      margin-left: 0;
+      gap: 25px;
+    }
+    @include mq('small') {
+      margin-left: 0;
+      gap: 10px;
+    }
+  }
+}

@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora&family=Inter" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora&family=Inter"
+    />
   </head>
   <body>
     <header class="flex-container">
-      <img src="./assets/images/logo.svg" alt="">
+      <a href="#"><img src="logo.svg" alt="" /></a>
       <nav>
-        <ul>
-          <li>Funcionalidades</li>
-          <li>App</li>
-          <li>Planos</li>
-          <li>Contato</li>
+        <ul class="flex-container">
+          <li><a href="#">Funcionalidades</a></li>
+          <li><a href="#">App</a></li>
+          <li><a href="#">Planos</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
       </nav>
     </header>
