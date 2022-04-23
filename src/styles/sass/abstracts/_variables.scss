@@ -1,11 +1,19 @@
+$text-font: 'Inter';
+$header-font: 'Sora';
+
+$text-font-stack: $text-font, 'Open Sans', 'Helvetica Neue Light',
+  'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+$header-font-stack: $header-font, 'Courier New', 'DejaVu Sans Mono',
+  'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+// =======================================================
+
 $main-theme-color: color('blue');
 // $secondary-theme-color: ;
-
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue',
-  'Helvetica', 'Arial', sans-serif !default;
-
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
-  'Monaco', monospace !default;
+$main-bg-color: tint($main-theme-color, 93%);
+$secondary-bg-color: color('white');
+$text-color: color('gray-200');
+$link-color: color('gray');
 
 $colors: (
   'blue': hsl(205, 99%, 53%),
@@ -15,13 +23,12 @@ $colors: (
   'gray': hsl(206, 3%, 45%),
   'gray-200': hsl(223, 25%, 22%),
 );
+// =======================================================
 
 $breakpoints: (
   'tiny': 360px,
   'small': 480px,
   'medium': 800px,
   'large': 1024px,
-  'huge': 1440px,
+  'huge': 1280px,
 ) !default;
-
-$test: yellow;

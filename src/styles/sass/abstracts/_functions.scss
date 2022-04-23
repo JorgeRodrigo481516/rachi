@@ -1,5 +1,7 @@
 @use './variables' as *;
 
+// =======================================================
+
 @function color($colors-key) {
   @if map-has-key($colors, $colors-key) {
     @return map-get($colors, $colors-key);
@@ -8,6 +10,7 @@
   @warn "Unknown `#{$colors-key}` in $colors map.";
   @return null;
 }
+// =======================================================
 
 @function breakpoint($breakpoints-key) {
   @if map-has-key($breakpoints, $breakpoints-key) {
@@ -17,10 +20,12 @@
   @warn "Unknown `#{$breakpoints-key}` in $breakpoints map.";
   @return null;
 }
+// =======================================================
 
 @function tint($color, $percentage) {
   @return mix(white, $color, $percentage);
 }
+// =======================================================
 
 @function shade($color, $percentage) {
   @return mix(black, $color, $percentage);
