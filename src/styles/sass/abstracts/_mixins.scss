@@ -1,0 +1,13 @@
+@mixin print($declarations) {
+  @each $property, $value in $declarations {
+    #{$property}: $value;
+  }
+}
+
+@mixin coor {
+  color: $test;
+}
+
+// @mixin mq($key) {
+
+// }
