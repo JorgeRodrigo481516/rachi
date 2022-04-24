@@ -1,0 +1,10 @@
+.how-it-works {
+  @include flex($gap: 15px);
+  min-height: 460px;
+  padding: 50px 25px;
+
+  .title {
+    position: absolute;
+    top: 56px;
+  }
+}

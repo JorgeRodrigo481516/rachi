@@ -1,0 +1,25 @@
+.icons {
+  @include flex($direction: column);
+  max-width: 210px;
+  min-height: 135px;
+  margin-top: 90px;
+
+  &__title {
+    margin-top: 32px;
+    color: $header-text-color;
+    font-family: $header-font-stack;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  &__text {
+    margin-top: 16px;
+    color: $text-color;
+    font-family: $text-font-stack;
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+ // border: 1px solid;
+}

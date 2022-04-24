@@ -6,11 +6,10 @@
   background-position: center right;
   background-blend-mode: darken;
 
-  .title {
+  .title--h1 {
     position: absolute;
     left: 10%;
     top: 25%;
-    font-size: clamp(3rem, 7vw, 4.8rem);
   }
 
   .button {
@@ -24,7 +23,7 @@
     min-height: 740px;
     background-position: bottom right;
 
-    .title {
+    .title--h1 {
       top: 15%;
     }
 
