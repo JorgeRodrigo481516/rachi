@@ -1,50 +1,36 @@
 .rachi {
-  @include bg-img('Working-from-anywhere-rafiki.svg');
+  @include bg-image('Working-from-anywhere-rafiki.svg');
   min-height: 640px;
   background-color: $main-bg-color;
 
   .title--large {
     position: absolute;
-    left: 10%;
-    top: 25%;
+    top: 180px;
+    margin-inline: 40px;
   }
 
   .button {
     position: absolute;
-    left: 10%;
-    top: 62%;
+    top: 400px;
+    margin-inline: 50px;
   }
 
   @include mq('large') {
-    min-height: 740px;
+    min-height: 780px;
     background-position: bottom right;
-
-    .title--large {
-      top: 15%;
-    }
-
-    .button {
-      top: 42.5%;
-    }
   }
+
 
   @include mq('small') {
+    min-height: 750px;
     background-position: bottom;
 
-    .button {
-      top: 37.5%;
+    .title--large {
+      top: 100px;
     }
-  }
 
-  @include mq('tiny') {
     .button {
-      top: 35%;
-    }
-  }
-
-  @include mq('min') {
-    .button {
-      top: 37%;
+      top: 290px;
     }
   }
 }

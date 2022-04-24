@@ -16,10 +16,11 @@
 }
 // =======================================================
 
-@mixin bg-img($img, $repeat: no-repeat, $position: center right, $blend: darken) {
+@mixin bg-image($img, $repeat: no-repeat, $position: center right, $size: contain, $blend: darken) {
   background-image: url('/src/assets/images/#{$img}');
   background-repeat: $repeat;
   background-position: $position;
+  background-size: $size;
   background-blend-mode: $blend;
   @content;
 }

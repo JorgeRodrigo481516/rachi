@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  @include bg-image('Simple-Shiny.svg', $size: cover);
 }
 
 *,
@@ -15,14 +16,17 @@ body {
   @include flex($direction: column, $align: stretch);
   width: 100%;
   max-width: breakpoint('huge');
+  margin: 0 auto;
   font-family: $text-font-stack;
   background-color: color('white');
   overflow-x: hidden;
+  outline: 5px groove $main-theme-color;
+  box-shadow: 20px 20px 80px #0b6db2, -20px -20px 80px #15caff;
 }
 
 section {
   width: 100%;
-  margin: 0 auto;
+
   position: relative;
 }
 

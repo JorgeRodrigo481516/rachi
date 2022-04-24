@@ -3,8 +3,8 @@ header {
   width: 100%;
   max-width: breakpoint('huge');
   height: 70px;
-  padding-left: 8%;
-  padding-right: 2%;
+  padding-left: 25px;
+  padding-right: 15px;
 
   @include mq('large') {
     .nav__list {

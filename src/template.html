@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Sora&family=Inter&family=Nunito"
+      href="https://fonts.googleapis.com/css2?family=Sora&family=Inter&family=Nunito&family=Roboto"
     />
   </head>
   <body>
@@ -17,16 +17,16 @@
       <a href="#rachi"><img src="logo.svg" alt="" /></a>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__list-item nav__list-item--no-style">
+          <li class="nav__list-item--no-style">
             <a class="nav__link" href="#how-it-works">Funcionalidades</a>
           </li>
-          <li class="nav__list-item nav__list-item--no-style">
+          <li class="nav__list-item--no-style">
             <a class="nav__link" href="#download-our-app">App</a>
           </li>
-          <li class="nav__list-item nav__list-item--no-style">
+          <li class="nav__list-item--no-style">
             <a class="nav__link" href="#our-plans">Planos</a>
           </li>
-          <li class="nav__list-item nav__list-item--no-style">
+          <li class="nav__list-item--no-style">
             <a class="nav__link" href="#contact">Contato</a>
           </li>
         </ul>
@@ -34,7 +34,7 @@
     </header>
     <main>
       <section id="rachi" class="rachi">
-        <h1 class="title title--large">
+        <h1 class="title--large">
           Rachi,<br />é tudo que você<br />precisa em um só lugar.
         </h1>
         <a class="button" href="#">Cadastrar-se</a>
@@ -61,7 +61,7 @@
         </div>
       </section>
       <section id="download-our-app" class="download-our-app">
-        <h2 class="title title--small">Baixe nosso app para desfrutar mais!</h2>
+        <h2 class="title--small">Baixe nosso app para desfrutar mais!</h2>
         <p class="paragraph">Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.</p>
         <div class="logos">
           <a class="logo__google-play" href="#"><img src="google-play-logo.svg" alt="Logo da Google Play Store"></img></a>
@@ -71,6 +71,36 @@
       <section id="our-plans" class="our-plans">
         <h2 class="title">Nossos Planos</h2>
         <span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</span>
+        <div class="card">
+          <h3 class="card__title">Bronze</h3>
+          <div class="card__price">
+            <span class="card__price__sign">R$</span>
+            <span class="card__price__value">28</span>
+            <span class="card__price__period">/mês.</span>
+          </div>
+          <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+          <a href="#" class="card__button">Assinar</a>
+        </div>
+        <div class="card--preferido">
+          <h3 class="card__title--preferido">Prata</h3>
+          <div class="card__price--preferido">
+            <span class="card__price__sign">R$</span>
+            <span class="card__price__value">57</span>
+            <span class="card__price__period">/mês.</span>
+          </div>
+          <p class="card__description--preferido">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+          <a href="#" class="card__button--preferido">Assinar</a>
+        </div>
+        <div class="card">
+          <h3 class="card__title">Ouro</h3>
+          <div class="card__price">
+            <span class="card__price__sign">R$</span>
+            <span class="card__price__value">94</span>
+            <span class="card__price__period">/mês.</span>
+          </div>
+          <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+          <a href="#" class="card__button">Assinar</a>
+        </div>
       </section>
       <section id="contact"></section>
     </main>

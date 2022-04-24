@@ -1,0 +1,95 @@
+.card {
+  $preferido-bg-color: color('gray-200');
+  $preferido-header-text-color: color('white');
+  $preferido-text-color: color('gray-light');
+
+  @include flex(column);
+  position: relative;
+  max-width: 370px;
+  min-height: 470px;
+  padding: 55px 35px 65px;
+  border-radius: 8px;
+  background-color: $main-bg-color;
+
+  .card__title {
+    color: $header-text-color;
+    font-family: $header-font-stack;
+    font-weight: 600;
+    font-size: 2.4rem;
+
+    &--preferido {
+      @extend .card__title;
+      color: $preferido-header-text-color;
+      font-size: 3.2rem;
+    }
+  }
+
+  .card__preferido {
+    @extend .button;
+    position: relative;
+    top: -15px;
+    padding: 6px 25px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 15px;
+    box-shadow: none;
+  }
+
+  .card__price {
+    color: $header-text-color;
+    font-family: 'Roboto';
+    font-weight: 700;
+
+    .card__price__sign {
+      font-size: 2rem;
+      vertical-align: 20px;
+    }
+
+    .card__price__value {
+      font-size: 5rem;
+    }
+
+    .card__price__period {
+      font-size: 2.6rem;
+    }
+
+    &--preferido {
+      @extend .card__price;
+      position: relative;
+      top: -25px;
+      color: $preferido-header-text-color;
+    }
+  }
+
+  .card__description {
+    color: $text-color;
+    font-size: 1.8rem;
+    text-align: center;
+
+    &--preferido {
+      @extend .card__description;
+      position: relative;
+      top: -20px;
+      color: $preferido-text-color;
+    }
+  }
+
+  .card__button {
+    @extend .button;
+    padding: 8px 80px;
+    font-family: $nunita-font-stack;
+    font-weight: 700;
+
+    &--preferido {
+      @extend .card__button;
+      box-shadow: 1px 3px 10px hsla(209, 84%, 48%, 0.5);
+    }
+  }
+
+  &--preferido {
+    @extend .card;
+    padding: 25px 35px 65px;
+    background-color: $preferido-bg-color;
+  }
+}

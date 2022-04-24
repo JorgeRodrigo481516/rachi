@@ -1,6 +1,6 @@
 .logos {
   @include flex($justify: space-between, $gap: 10px);
-  width: min(50vw, 380px);
+  width: min(75vw, 380px);
   margin-top: 10px;
 
   @include mq('medium') {
