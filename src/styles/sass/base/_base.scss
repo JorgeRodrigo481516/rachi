@@ -14,6 +14,7 @@ html {
 body {
   @include flex($direction: column, $align: stretch);
   width: 100%;
+  max-width: breakpoint('huge');
   font-family: $text-font-stack;
   background-color: color('white');
   overflow-x: hidden;
@@ -21,7 +22,6 @@ body {
 
 section {
   width: 100%;
-  max-width: breakpoint('huge');
   margin: 0 auto;
   position: relative;
 }

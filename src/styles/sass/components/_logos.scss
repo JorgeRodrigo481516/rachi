@@ -1,0 +1,14 @@
+.logos {
+  @include flex($justify: space-between, $gap: 10px);
+  width: min(50vw, 380px);
+  margin-top: 10px;
+
+  @include mq('medium') {
+    gap: 0 !important;
+  }
+
+  @include mq('tiny') {
+    width: 100%;
+    justify-content: center;
+  }
+}

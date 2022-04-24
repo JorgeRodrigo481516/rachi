@@ -32,9 +32,11 @@ $colors: (
 // =======================================================
 
 $breakpoints: (
-  'tiny': 360px,
-  'small': 480px,
-  'medium': 800px,
+  'min': 395px,
+  'tiny': 480px,
+  'small': 600px,
+  'medium': 768px,
   'large': 1024px,
   'huge': 1280px,
+  'max': 1440px,
 ) !default;

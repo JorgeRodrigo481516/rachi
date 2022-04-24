@@ -1,0 +1,21 @@
+.our-plans {
+  @include flex($gap: 15px);
+  min-height: 700px;
+  padding: 60px 25px 115px;;
+
+  .title {
+    position: absolute;
+    top: 50px;
+  }
+
+  .description {
+    position: absolute;
+    top: 110px;
+  }
+
+  @include mq('small') {
+    .description {
+      top: 100px;
+    }
+  }
+}

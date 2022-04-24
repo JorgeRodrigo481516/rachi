@@ -1,6 +1,6 @@
 .nav {
   .nav__list {
-    @include flex($gap: 60px);
+    @include flex($gap: 50px);
     font-family: $text-font-stack;
     font-size: min(3.6vw, 1.8rem);
     font-weight: 500;

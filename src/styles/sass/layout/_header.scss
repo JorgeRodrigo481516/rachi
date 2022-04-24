@@ -1,24 +1,24 @@
 header {
-  @include flex($gap: 30px);
+  @include flex($justify: space-between);
   width: 100%;
   max-width: breakpoint('huge');
   height: 70px;
+  padding-left: 8%;
+  padding-right: 2%;
 
-  .nav__list {
-    margin-left: 70px;
-  }
-
-  @include mq('medium') {
-    gap: 0 !important;
-
+  @include mq('large') {
     .nav__list {
-      margin-left: 0;
-      gap: 25px !important;
+      gap: 30px !important;
     }
   }
 
-  @include mq('small') {
+  @include mq('medium') {
+    .nav__list {
+      gap: 20px !important;
+    }
+  }
+
+  @include mq('tiny') {
     justify-content: flex-start;
-    padding-left: 10%;
   }
 }

@@ -5,15 +5,25 @@
 // }
 // =======================================================
 
-@mixin flex($direction: row, $wrap: wrap, $justify: space-around, $align: center, $gap: 0) {
+@mixin flex($direction: row, $justify: space-around, $align: center, $gap: 0, $wrap: wrap) {
   display: flex;
   flex-direction: $direction;
-  flex-wrap: $wrap;
   justify-content: $justify;
   align-items: $align;
   gap: $gap;
+  flex-wrap: $wrap;
   @content;
 }
+// =======================================================
+
+@mixin bg-img($img, $repeat: no-repeat, $position: center right, $blend: darken) {
+  background-image: url('/src/assets/images/#{$img}');
+  background-repeat: $repeat;
+  background-position: $position;
+  background-blend-mode: $blend;
+  @content;
+}
+
 // =======================================================
 
 @mixin mq($breakpoint-key) {

@@ -1,0 +1,33 @@
+.download-our-app {
+  @include bg-img('New-notifications-amico-1.svg', $position: 95% bottom);
+  @include flex(column, center, flex-start, 25px);
+  min-height: 475px;
+  padding: 60px 5%;
+  background-color: $main-bg-color;
+
+  .paragraph {
+    max-width: 440px;
+    color: $text-color;
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  @include mq('large') {
+    min-height: 500px;
+    justify-content: flex-start;
+  }
+
+  @include mq('medium') {
+    min-height: 600px;
+    padding: 60px 8%;
+  }
+  
+  @include mq('tiny') {
+    min-height: 750px;
+    align-items: center;
+  }
+
+  @include mq('min') {
+    min-height: 780px;
+  }
+}
