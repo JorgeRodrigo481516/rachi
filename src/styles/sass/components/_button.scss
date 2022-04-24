@@ -1,0 +1,21 @@
+.button {
+  padding: 16px 36px;
+  font-family: $text-font-stack;
+  font-size: clamp(1.8rem, 3vw, 2rem);
+  font-weight: 600;
+  color: $button-text-color;
+  background-color: $main-theme-color;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 3px 4px hsla(209, 84%, 48%, 0.5);
+
+  &--nunito {
+    padding: 8px 80px;
+    font-family: $nunita-font-stack;
+    font-weight: 700;
+  }
+
+  @include mq('small') {
+  padding: (16px * 0.85) (36px * 0.85);
+  }
+}

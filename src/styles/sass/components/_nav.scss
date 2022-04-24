@@ -15,4 +15,8 @@
   .nav__link {
     color: $link-color;
   }
+
+  @include mq('small') {
+    display: none;
+  }
 }

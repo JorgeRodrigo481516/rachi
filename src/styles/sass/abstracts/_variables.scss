@@ -1,10 +1,14 @@
 $text-font: 'Inter';
 $header-font: 'Sora';
+$nunita-font: 'Nunito';
 
 $text-font-stack: $text-font, 'Open Sans', 'Helvetica Neue Light',
   'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
 $header-font-stack: $header-font, 'Courier New', 'DejaVu Sans Mono',
+  'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+$nunita-font-stack: $header-font, 'Courier New', 'DejaVu Sans Mono',
   'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 // =======================================================
 
@@ -12,7 +16,9 @@ $main-theme-color: color('blue');
 // $secondary-theme-color: ;
 $main-bg-color: tint($main-theme-color, 93%);
 $secondary-bg-color: color('white');
-$text-color: color('gray-200');
+$header-text-color: color('gray-200');
+$button-text-color: color('white');
+$text-color: color('gray');
 $link-color: color('gray');
 
 $colors: (

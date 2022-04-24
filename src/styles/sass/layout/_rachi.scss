@@ -1,4 +1,43 @@
-#rachi {
-  background-color: $main-bg-color;
+.rachi {
   min-height: 640px;
+  background-color: $main-bg-color;
+  background-image: url('/src/assets/images/Working-from-anywhere-rafiki.svg');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-blend-mode: darken;
+
+  .title {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: clamp(3rem, 7vw, 4.8rem);
+  }
+
+  .button {
+    position: absolute;
+    left: 10%;
+    top: 62%;
+    
+  }
+
+  @include mq('large') {
+    min-height: 740px;
+    background-position: bottom right;
+
+    .title {
+      top: 15%;
+    }
+
+    .button {
+      top: 42.5%;
+    }
+  }
+
+  @include mq('small') {
+    background-position: bottom;
+
+    .button {
+      top: 37.5%;
+    }
+  }
 }

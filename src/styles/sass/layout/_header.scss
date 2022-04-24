@@ -6,17 +6,19 @@ header {
 
   .nav__list {
     margin-left: 70px;
-
-    @include mq('medium') {
-      margin-left: 0;
-      gap: 25px !important;
-    }
-    @include mq('small') {
-      gap: 10px !important;
-    }
   }
 
   @include mq('medium') {
     gap: 0 !important;
+
+    .nav__list {
+      margin-left: 0;
+      gap: 25px !important;
+    }
+  }
+
+  @include mq('small') {
+    justify-content: flex-start;
+    padding-left: 10%;
   }
 }
