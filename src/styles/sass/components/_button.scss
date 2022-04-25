@@ -9,7 +9,7 @@
   color: $button-text-color;
   background-color: $main-theme-color;
   box-shadow: 1px 3px 4px hsla(209, 84%, 48%, 0.5);
-  transition: all 0.3s ease-out;
+  transition: all 0.2s;
 
   &:hover {
     outline: 3px groove;

@@ -5,7 +5,15 @@
   margin-top: 90px;
   margin-inline: 20px;
 
-  &__title {
+  .icons__icon {
+
+    &:hover {
+      filter: drop-shadow(0px 10px 40px hsl(0, 0%, 0%)) ;
+      animation: float 2s infinite;
+    }
+  }
+
+  .icons__title {
     margin-top: 32px;
     color: $header-text-color;
     font-family: $header-font-stack;
@@ -13,7 +21,7 @@
     font-size: 1.8rem;
   }
 
-  &__text {
+  .icons__text {
     margin-top: 16px;
     color: $text-color;
     font-family: $text-font-stack;

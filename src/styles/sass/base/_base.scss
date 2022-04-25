@@ -39,10 +39,10 @@ input {
   color: color('white');
   background-color: transparent;
   font-family: $text-font-stack;
-}
 
-::-webkit-input-placeholder {
-  color: color('white');
+  &::-webkit-input-placeholder {
+    color: color('white');
+  }
 }
 
 a {

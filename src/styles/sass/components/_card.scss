@@ -11,6 +11,14 @@
   padding: 55px 35px 65px;
   border-radius: 8px;
   background-color: $main-bg-color;
+  box-shadow: 10px 10px 30px hsl(0, 0%, 90%), -5px -5px 30px hsl(0, 0%, 95%);
+
+  .card__best-seller {
+    position: absolute;
+    top: -4px;
+    right: -15px;
+    transform: scale(1.2);
+  }
 
   .card__title {
     color: $header-text-color;
@@ -105,5 +113,14 @@
     @extend .card;
     padding: 25px 35px 65px;
     background-color: $preferido-bg-color;
+    transform: translateY(-20px);
+
+    @include mq('large') {
+      transform: translateY(-5px);
+    }
+
+    @include mq('small') {
+      transform: translateY(5px);
+    }
   }
 }
