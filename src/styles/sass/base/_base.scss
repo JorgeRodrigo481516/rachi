@@ -1,6 +1,7 @@
 html {
-  font-size: 62.5%;
   @include bg-image('Simple-Shiny.svg', $size: cover);
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 *,
