@@ -1,16 +1,23 @@
 .button {
-  $button-text-color: color('white');
-
   padding: 16px 36px;
+  outline: 0 groove;
+  border: none;
+  border-radius: 50px;
   font-family: $text-font-stack;
   font-size: clamp(1.8rem, 3vw, 2rem);
   font-weight: 600;
   color: $button-text-color;
   background-color: $main-theme-color;
-  border-radius: 50px;
   box-shadow: 1px 3px 4px hsla(209, 84%, 48%, 0.5);
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    outline: 3px groove;
+    color: $main-theme-color;
+    background-color: $button-text-color;
+  }
 
   @include mq('small') {
-    padding: (16px * 0.85) (36px * 0.85);
+    padding: 13px 30px;
   }
 }

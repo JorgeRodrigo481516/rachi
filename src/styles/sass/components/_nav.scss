@@ -1,20 +1,48 @@
 .nav {
   .nav__list {
-    @include flex($gap: 50px);
+    @include flex($gap: 20px);
     font-family: $text-font-stack;
     font-size: min(3.6vw, 1.8rem);
     font-weight: 500;
   }
 
   .nav__list-item {
-    &--no-style {
-      @extend .nav__list-item;
-      list-style: none;
-    }
+    list-style: none;
   }
 
   .nav__link {
+    padding: 0 20px;
     color: $link-color;
+    position: relative;
+    transition: all 0.5s ease-in, color 0s;
+
+    &:hover {
+      color: transparent;
+      background: linear-gradient(
+        to right,
+        $main-theme-color,
+        shade($main-bg-color, 25%)
+      );
+      background-clip: text;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 10%;
+      width: 80%;
+      height: 2px;
+      background: linear-gradient(to right, $main-bg-color, $main-theme-color);
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform 0.5s;
+    }
+
+    &:hover::before {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
   }
 
   @include mq('small') {

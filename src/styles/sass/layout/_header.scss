@@ -8,13 +8,13 @@ header {
 
   @include mq('large') {
     .nav__list {
-      gap: 30px !important;
+      gap: 10px !important;
     }
   }
 
   @include mq('medium') {
     .nav__list {
-      gap: 20px !important;
+      gap: 0px !important;
     }
   }
 

@@ -30,6 +30,20 @@ section {
   position: relative;
 }
 
+input {
+  padding: 10px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid color('white');
+  color: color('white');
+  background-color: transparent;
+  font-family: $text-font-stack;
+}
+
+::-webkit-input-placeholder {
+  color: color('white');
+}
+
 a {
   text-decoration: none;
 }

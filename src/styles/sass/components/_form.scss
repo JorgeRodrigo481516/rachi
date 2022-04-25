@@ -1,0 +1,23 @@
+.form {
+  @include flex($gap: 40px);
+
+  .form__email {
+    width: 300px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 1s;
+
+    &:focus {
+      color: $main-theme-color;
+    }
+  }
+
+  .form__button {
+    @extend .button;
+    padding: 8px 32px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    box-shadow: none;
+    cursor: pointer;
+  }
+}

@@ -14,4 +14,9 @@
     @extend .title;
     font-size: clamp(2.8rem, 5vw, 3.2rem);
   }
+
+  &--white {
+    @extend .title;
+    color: color('white');
+  }
 }
