@@ -57,9 +57,9 @@ ou passo-a-passo foram pegos de sua comunidade.
 
 🔷 <strong><em> Multiplataforma </em></strong> - PC, notebook, tablet, e smartphone.
 
-🔷 <strong><em> Alta compatibilidade </em></strong> - Internet Explorer, Firefox, Chrome, e outros.
-
 🔹 <strong><em> Interatividade </em></strong> - Botões, links, e inputs.
+
+🔸 <strong><em> Compatibilidade </em></strong> - Chrome, Brave, Microsoft Edge, Internet Explorer, Firefox, e outros.
 
 
 <br>
@@ -79,6 +79,8 @@ ou passo-a-passo foram pegos de sua comunidade.
 ✔️ <strong> Adicionar responsividade </strong>
 
 ⚠️ <strong> Realizar aprimoramentos no design </strong>
+
+⭕ <strong> Melhorar a compatibilidade com o IE </strong>
 
 💡 <strong> Construir o back-end para receber e/ou administrar dados </strong>
 
