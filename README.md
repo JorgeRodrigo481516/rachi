@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://github.com/JorgeRodrigo481516/calculadora-simples/stargazers">
+  <a href="https://github.com/JorgeRodrigo481516/rachi/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/JorgeRodrigo481516/rachi?style=social">
   </a>
-  <a href="https://github.com/JorgeRodrigo481516/calculadora-simples/commits/main">
+  <a href="https://github.com/JorgeRodrigo481516/rachi/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JorgeRodrigo481516/rachi">
   </a>
   <a href="#">
@@ -23,14 +23,11 @@
   <img src="./src/assets/images/EM-BREVE-Source.png" alt="EM BREVE"
 </p>
 
-<a href="#"><h1 id="sobre"> Rachi 🔗 </h1></a>
+<a href="#instalacao"><h1 id="sobre"> Rachi 🔗 </h1></a>
 
-O 19º [Desafio Codelandia](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=624%3A2), criado pelo 
-[IuriCode](https://github.com/iuricode), foi utilizado como inspiração para o meu projeto. Este repositório serve de estudo, e os seus principais objetivos são:
-conquistar novos aprendizados; reforçar os conhecimentos obtidos até o momento do ultimo commit; e gerar dados (tempo, esforço, metodologia...)
-para serem utilizados como parâmetros da minha própria curva de aprendizado.
+O 19º [Desafio Codelandia](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=624%3A2), criado pelo [IuriCode](https://github.com/iuricode), foi utilizado como inspiração para o meu projeto. Este repositório serve de estudo, e os seus principais objetivos são: conquistar novos aprendizados; reforçar os conhecimentos obtidos até o momento do ultimo commit; e gerar dados (tempo, esforço, metodologia...) para serem utilizados como parâmetros da minha própria curva de aprendizado.
 
-Nota: Apenas o modelo de página foi retirado dos desafios do Iuri Silva para serem utilizados neste projeto, ou seja, nenhuma linha de código, vídeo explicativo, 
+Nota: Apenas o modelo de página foi retirado dos desafios do IuriCode para serem utilizados neste projeto, ou seja, nenhuma linha de código, vídeo explicativo, 
 ou passo-a-passo foi retirado de sua comunidade.
 
 
