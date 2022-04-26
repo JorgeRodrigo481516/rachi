@@ -5,10 +5,10 @@
   <a href="https://github.com/JorgeRodrigo481516/rachi/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JorgeRodrigo481516/rachi">
   </a>
-  <a href="https://img.shields.io/github/repo-size/JorgeRodrigo481516/rachi">
+  <a href="https://github.com/JorgeRodrigo481516/rachi">
     <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/JorgeRodrigo481516/rachi?color=3F71FF">
   </a>
-  <a href="https://img.shields.io/github/repo-size/JorgeRodrigo481516/rachi">
+  <a href="https://github.com/JorgeRodrigo481516/rachi">
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/JorgeRodrigo481516/rachi">
   </a>
   <a href="./LICENSE">
