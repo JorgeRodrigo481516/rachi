@@ -19,16 +19,17 @@
   </a>
 </p>
 
+
 <p align="center">
-  <img src="./src/assets/images/EM-BREVE-Source.png" alt="EM BREVE"
+  <img width="900px" src="https://user-images.githubusercontent.com/79382459/165198538-9a850717-9e9c-42f0-932e-8b0e108e79a5.gif" alt="Rachi website"
 </p>
 
 <a href="#instalacao"><h1 id="sobre"> Rachi 🔗 </h1></a>
 
-O 19º [Desafio Codelandia](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=624%3A2), criado pelo [IuriCode](https://github.com/iuricode), foi utilizado como inspiração para o meu projeto. Este repositório serve de estudo, e os seus principais objetivos são: conquistar novos aprendizados; reforçar os conhecimentos obtidos até o momento do ultimo commit; e gerar dados (tempo, esforço, metodologia...) para serem utilizados como parâmetros da minha própria curva de aprendizado.
+O 19º [Desafio Codelandia](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=624%3A2), criado pelo [IuriCode](https://github.com/iuricode), foi utilizado como inspiração para o meu projeto. Este repositório serve de estudo, e os seus principais objetivos são: conquistar novos aprendizados; reforçar os conhecimentos obtidos até o momento; e gerar dados (tempo, esforço, metodologia...) para serem utilizados como parâmetros da minha própria curva de aprendizado.
 
 Nota: Apenas o modelo de página foi retirado dos desafios do IuriCode para serem utilizados neste projeto, ou seja, nenhuma linha de código, vídeo explicativo, 
-ou passo-a-passo foi retirado de sua comunidade.
+ou passo-a-passo foram pegos de sua comunidade.
 
 
 <br>
@@ -37,7 +38,7 @@ ou passo-a-passo foi retirado de sua comunidade.
 
 <p align="center">
  <a href="#sobre">Sobre</a> •
- <!-- <a href="#screenshots">Screenshots</a> • -->
+ <a href="#screenshots">Screenshots</a> •
  <a href="#recursos">Recursos</a> • 
  <a href="#tarefas">Tarefas</a> • 
  <a href="#instalacao">Rodando</a> • 
@@ -48,7 +49,7 @@ ou passo-a-passo foi retirado de sua comunidade.
 <h2 id="screenshots"> 📷 Screenshots </h2>
 
 <p align="center">
-  <img src="./src/assets/images/EM-BREVE-Source.png" alt="EM BREVE"
+  <img src="https://user-images.githubusercontent.com/79382459/165197949-467ba82c-133f-4539-b4c2-fa75d7927d54.png" alt="EM BREVE"
 </p>
 
 <br>
