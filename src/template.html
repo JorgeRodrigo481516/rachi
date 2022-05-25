@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <a href="#rachi"><img src="logo.svg" alt="" /></a>
+      <a href="#rachi"><img src="logo.svg" alt="" loading="lazy" /></a>
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__list-item">
@@ -43,35 +43,67 @@
       <section id="how-it-works" class="how-it-works">
         <h2 class="title">Como funciona</h2>
         <div class="icons">
-          <img src="person-plus.svg" alt="" class="icons__icon" />
+          <img
+            src="person-plus.svg"
+            alt=""
+            class="icons__icon"
+            loading="lazy"
+          />
           <h4 class="icons__title">Crie conexões</h4>
-          <span class="icons__text">Lorem ipsum dolor sit amet,
-            consecteteu.</span>
+          <span class="icons__text">
+            Lorem ipsum dolor sit amet, consecteteu.
+          </span>
         </div>
         <div class="icons">
-          <img src="carbon-security.svg" alt="" class="icons__icon" />
+          <img
+            src="carbon-security.svg"
+            alt=""
+            class="icons__icon"
+            loading="lazy"
+          />
           <h4 class="icons__title">100% gratuito</h4>
-          <span class="icons__text">Lorem ipsum dolor sit amet,
-            consecteteu.</span>
+          <span class="icons__text">
+            Lorem ipsum dolor sit amet, consecteteu.
+          </span>
         </div>
         <div class="icons">
-          <img src="face.svg" alt="" class="icons__icon" />
+          <img src="face.svg" alt="" class="icons__icon" loading="lazy" />
           <h4 class="icons__title">Compartilhamento</h4>
-          <span class="icons__text">Lorem ipsum dolor sit amet,
-            consecteteu.</span>
+          <span class="icons__text">
+            Lorem ipsum dolor sit amet, consecteteu.
+          </span>
         </div>
       </section>
       <section id="download-our-app" class="download-our-app">
         <h2 class="title--small">Baixe nosso app para desfrutar mais!</h2>
-        <p class="paragraph">Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.</p>
+        <p class="paragraph">
+          Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur
+          turpis elementum amet vitae et etiam nec. Varius volutpat hac
+          adipiscing tincidunt pretium.
+        </p>
         <div class="logos">
-          <a class="logo__google-play" href="#"><img src="google-play-logo.svg" alt="Logo da Google Play Store"></img></a>
-          <a class="logo__app-store" href="#"><img src="app-store-logo.svg" alt="Logo da App Store"></img></a>
+          <a class="logos__google-play" href="#">
+            <img
+              src="google-play-logo.svg"
+              alt="Logo da Google Play Store"
+              loading="lazy"
+            />
+          </a>
+          <a class="logos__app-store" href="#">
+            <img
+              src="app-store-logo.svg"
+              alt="Logo da App Store"
+              loading="lazy"
+            />
+          </a>
         </div>
       </section>
       <section id="our-plans" class="our-plans">
         <h2 class="title">Nossos Planos</h2>
-        <span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</span>
+        <span class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia
+          mi quis euismod ultrices.
+        </span>
         <div class="card">
           <h3 class="card__title">Bronze</h3>
           <div class="card__price">
@@ -79,7 +111,10 @@
             <span class="card__price__value">28</span>
             <span class="card__price__period">/mês.</span>
           </div>
-          <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+          <p class="card__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            lacinia mi quis euismod ultrices.
+          </p>
           <a href="#contact" class="card__button">Assinar</a>
         </div>
         <div class="card--preferido">
@@ -89,7 +124,10 @@
             <span class="card__price__value">57</span>
             <span class="card__price__period">/mês.</span>
           </div>
-          <p class="card__description--preferido">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+          <p class="card__description--preferido">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            lacinia mi quis euismod ultrices.
+          </p>
           <a href="#contact" class="card__button--preferido">Assinar</a>
         </div>
         <div class="card">
@@ -99,20 +137,33 @@
             <span class="card__price__value">94</span>
             <span class="card__price__period">/mês.</span>
           </div>
-          <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+          <p class="card__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            lacinia mi quis euismod ultrices.
+          </p>
           <a href="#contact" class="card__button">Assinar</a>
         </div>
       </section>
       <section id="contact" class="contact">
         <h2 class="title--white">Contato</h2>
-        <span class="description--contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</span>
+        <span class="description--contact">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia
+          mi quis euismod ultrices.
+        </span>
         <form action="" method="post" class="form">
-          <input type="email" name="email" class="form__email" placeholder="Seu melhor e-mail">
+          <input
+            type="email"
+            name="email"
+            class="form__email"
+            placeholder="Seu melhor e-mail"
+          />
           <button class="form__button">Enviar</button>
         </form>
       </section>
       <footer class="footer">
-        <span class="direitos-reservados">Rachi - Todos os direitos reservados.</span>
+        <span class="direitos-reservados">
+          Rachi - Todos os direitos reservados.
+        </span>
       </footer>
     </main>
   </body>
