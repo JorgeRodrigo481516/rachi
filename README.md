@@ -24,7 +24,7 @@
   <img width="900px" src="https://user-images.githubusercontent.com/79382459/165198538-9a850717-9e9c-42f0-932e-8b0e108e79a5.gif" alt="Rachi website"
 </p>
 
-<a href="#instalacao"><h1 id="sobre"> Rachi 🔗 </h1></a>
+<a id="sobre" href="https://jorgerodrigo481516.github.io/rachi/"><h1> Rachi 🔗 </h1></a>
 
 O 19º [Desafio Codelandia](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=624%3A2), criado pelo [IuriCode](https://github.com/iuricode), foi utilizado como inspiração para o meu projeto. Este repositório serve de estudo, e os seus principais objetivos são: conquistar novos aprendizados; reforçar os conhecimentos obtidos até o momento; e gerar dados (tempo, esforço, metodologia...) para serem utilizados como parâmetros da minha própria curva de aprendizado.
 
