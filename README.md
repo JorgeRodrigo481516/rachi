@@ -1,4 +1,5 @@
 <p align="center" id="top">
+  <br>
   <a href="https://github.com/JorgeRodrigo481516/rachi/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/JorgeRodrigo481516/rachi?style=social">
   </a>
