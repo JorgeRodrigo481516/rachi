@@ -13,6 +13,21 @@
   background-color: $main-bg-color;
   box-shadow: 10px 10px 30px hsl(0, 0%, 90%), -5px -5px 30px hsl(0, 0%, 95%);
 
+  &--preferido {
+    @extend .card;
+    padding: 25px 35px 65px;
+    background-color: $preferido-bg-color;
+    transform: translateY(-20px);
+
+    @include mq('large') {
+      transform: translateY(-5px);
+    }
+
+    @include mq('small') {
+      transform: translateY(5px);
+    }
+  }
+
   .card__best-seller {
     position: absolute;
     top: -4px;
@@ -106,21 +121,6 @@
         background-color: $button-text-color;
         animation: float 2s ease-in-out infinite;
       }
-    }
-  }
-
-  &--preferido {
-    @extend .card;
-    padding: 25px 35px 65px;
-    background-color: $preferido-bg-color;
-    transform: translateY(-20px);
-
-    @include mq('large') {
-      transform: translateY(-5px);
-    }
-
-    @include mq('small') {
-      transform: translateY(5px);
     }
   }
 }

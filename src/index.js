@@ -10,5 +10,8 @@ import './assets/images/app-store-logo.svg';
 import './assets/images/icons-best-seller.svg';
 
 import { setPreferidos } from './utilities/setPreferidos';
+import { scrollToTop } from './utilities/scrollToTop';
 
 document.getElementsByTagName('body')[0].onload = setPreferidos;
+
+window.addEventListener('scroll', scrollToTop);
